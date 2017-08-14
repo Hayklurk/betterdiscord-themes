@@ -1,5 +1,9 @@
-@import 'https://raw.githubusercontent.com/AsadaJason/sinonbot-siteweb/master/sao.otf';
+@import url(https://rawgit.com/GimoTheBeast/Discord-Theme-Fixes/master/fixesImport/fixesClean.css);
 
+@font-face {
+            font-family: 'sao';
+            src: url('https://raw.githubusercontent.com/AsadaJason/sinonbot-siteweb/master/sao.otf');
+        }
 body {
     -webkit-transition: background 3s ease-in-out;
     transition: background 3s ease-in-out;
@@ -10,6 +14,7 @@ body {
     /* It is recommended to set the background-size width to match your monitor's or discord window's width.
        If the background picture is blurry, please use a bigger sized background picture. */
     background-size: cover;
+    font-family : 'sao';
 }
 .app, .connecting {
     /* You can adjust the background brightness by reducing the fourth value of below.
@@ -20,7 +25,7 @@ body {
        2nd value - Green 0-255
        3rd value - Blue 0-255
        4th value - Alpha (Opacity) 0.0-1.0 */
-    background: rgba(0, 0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
 
     -webkit-transition: background 0.5s ease-in-out;
     transition: background 0.5s ease-in-out;
